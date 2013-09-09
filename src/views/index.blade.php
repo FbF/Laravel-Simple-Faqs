@@ -13,7 +13,7 @@
 @endsection
 
 @section('content')
-	@if (!empty($faqs))
+	@if (!$faqs->isEmpty())
 		@if (Config::get('laravel-simple-faqs::show_questions_at_top'))
 			<ul class="faq-questions">
 			@foreach ($faqs as $faq)
