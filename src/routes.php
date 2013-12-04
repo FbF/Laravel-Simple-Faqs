@@ -9,6 +9,6 @@ Route::get(Config::get('laravel-simple-faqs::uri'), function() {
 		->orderBy('order', 'asc')
 		->get();
 
-	return View::make('laravel-simple-faqs::index', compact('faqs'));
+	return View::make(Config::get('laravel-simple-faqs::view'), compact('faqs'));
 
 });

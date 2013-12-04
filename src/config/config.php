@@ -35,4 +35,11 @@ return array(
 	 */
 	'show_questions_at_top' => true,
 
+	/**
+	 * The view to render
+	 *
+	 * @type bool
+	 */
+	'view' => 'laravel-simple-faqs::index',
+
 );
