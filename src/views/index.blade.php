@@ -1,4 +1,4 @@
-@extends('laravel-simple-faqs::layouts.master')
+@extends('layouts.master')
 
 @section('title')
 	{{ Config::get('laravel-simple-faqs::page_title') }}
